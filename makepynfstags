@@ -1,0 +1,8 @@
+#!/usr/bin/zsh
+DEST=cscope.files
+
+mv $DEST $DEST.old
+ls -1 *.py >> $DEST 
+find lib -name \*.py >> $DEST
+ctags --tag-relative=yes --extra=+f -L $DEST
+cscope -b -k -q -u -v
