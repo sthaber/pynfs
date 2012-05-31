@@ -1,0 +1,7 @@
+This repo is used to upstream Isilon additions and modifications to the pynfs
+codebase. See http://www.citi.umich.edu/projects/nfsv4/pynfs/ for more
+information.
+
+Steven Haber
+sthaber <at> gmail <dot> com
+shaber <at> isilon <dot> com
